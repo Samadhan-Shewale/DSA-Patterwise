@@ -1,5 +1,6 @@
 package BinarySearch;
-public class minimum_Number_Of_Days_To_Make_M_Bouquest {
+
+public class muminimun_number_of_days_to_make_M_bouquetstion {
     public int minDays(int[] bloomDay, int m, int k) {
         if( bloomDay.length < m*k ) return -1 ;
         int left = 1;
